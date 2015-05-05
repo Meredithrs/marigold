@@ -34,7 +34,7 @@ marigold.hover(function(tile, keys){
 		hoverRange.fill();
 	}
 
-	hoverRange = marigold.map.getAreaWithin(tile, 0);
+	hoverRange = marigold.map.getAreaWithin(tile, 2);
 	hoverRange.fill("#3c1b1f");
 
 	if(range.fill){
